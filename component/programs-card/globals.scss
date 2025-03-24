@@ -1,0 +1,60 @@
+.programs-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 27%;
+    height: fit-content;
+    padding: 25px;
+    text-decoration: none;
+    text-align: justify;
+    background: #FFFFFF;
+    box-shadow: 5px 2px 12px 5px #bbb;
+    border-radius: 10px;
+    margin: 20px 0;
+    @media (max-width:1000px) {
+        width: 90%;
+    }
+    >h2{
+        color: #000000;
+        font-size: 24px;
+        text-align: left;
+    }
+    >div{
+        color: #000000;
+        font-size: 20px;
+    }
+    >p{
+        font-size: 16px;
+        color: #000000;
+        height: 12vh;
+        width: 90%;
+    }
+    >button{
+        border: 1px solid #000000;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        background: #FFFFFF;
+        color: #000000;
+        font-size: 18px;
+        font-weight: 600;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    >button:hover{
+        background: #0000FF;
+        border: none;
+        color: #FFFFFF;
+    }
+    >button::after{
+        content: url("/icons/forward-black.png");
+        width: 30px;
+        height: 20px;
+    }
+    >button:hover::after{
+        content: url("/icons/forward-white.png");
+    }
+}
