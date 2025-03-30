@@ -172,7 +172,7 @@ export const testimomies = [
     name: "Ken Boche",
     image: "/icons/ken.jpg",
     postion: "Healthcare Professional",
-    testimony: "'The diploma program exceeded my expectations. The instructors are experienced and truly care about student success.'",
+    testimony: "The diploma program exceeded my expectations. The instructors are experienced and truly care about student success.",
     stars: 5,
   },
   {
@@ -180,7 +180,7 @@ export const testimomies = [
     name: "Mallory Converse",
     image: "/icons/mallory.jpg",
     postion: "Senior Caregiver",
-    testimony: "'Thanks to CGTII's higher diploma program, I was able to advance my career and take on leadership roles in healthcare.'",
+    testimony: "Thanks to CGTII's higher diploma program, I was able to advance my career and take on leadership roles in healthcare.",
     stars: 5,
   },
 ]
