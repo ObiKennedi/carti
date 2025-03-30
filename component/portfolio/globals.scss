@@ -28,5 +28,8 @@
     >div:hover{
         width: 21%;
         height: 24vh;
+        @media (max-width:900px) {
+            width: 92%;
+        }
     }
 }

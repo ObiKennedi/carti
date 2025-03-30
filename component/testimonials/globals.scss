@@ -11,6 +11,9 @@
     >div:nth-child(2){
         display: flex;
         gap: 20px;
+        @media (max-width:900px) {
+            flex-direction: column;
+        }
         >div{
             font-size: 27px;
         }
