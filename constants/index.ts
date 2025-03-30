@@ -138,3 +138,49 @@ export const eventList = [
     writeUp: "Hands-on workshop for aspiring caregivers."
   }
 ] 
+
+export const partners = [
+  {
+    id: 1,
+    name: "JOBLAB",
+  },
+  {
+    id: 2,
+    name: "LITTLEWOOD RECRUITMENT SERVICES",
+  },
+  {
+    id: 3,
+    name: "STARPOST EXPRESS",
+  },
+  {
+    id: 4,
+    name: "LIFE SPRING HOSPITAL",
+  }
+];
+
+export const testimomies = [
+  {
+    id: 1,
+    name: "Brandi Shoates",
+    image: "/icons/brandi.jpg",
+    postion: "Certified Caregiver",
+    testimony: "CGTII provided me with the skills and confidence I needed to start my caregiving career. The practical training was invaluable.",
+    stars: 5,
+  },
+  {
+    id: 2,
+    name: "Ken Boche",
+    image: "/icons/ken.jpg",
+    postion: "Healthcare Professional",
+    testimony: "'The diploma program exceeded my expectations. The instructors are experienced and truly care about student success.'",
+    stars: 5,
+  },
+  {
+    id: 3,
+    name: "Mallory Converse",
+    image: "/icons/mallory.jpg",
+    postion: "Senior Caregiver",
+    testimony: "'Thanks to CGTII's higher diploma program, I was able to advance my career and take on leadership roles in healthcare.'",
+    stars: 5,
+  },
+]

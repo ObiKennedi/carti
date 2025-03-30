@@ -41,7 +41,7 @@ const Header = () => {
                 {
                     open ? (
                         <Image
-                            src={"/icons/menu.png"}
+                            src={"/icons/toggle-menu.png"}
                             width={50}
                             height={50}
                             alt="menu"

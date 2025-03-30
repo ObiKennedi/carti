@@ -1,0 +1,16 @@
+.footer-about{
+    width: 20%;
+    padding: 20px;
+
+    @media (max-width:900px) {
+        width: 48%;
+    }
+    >div{
+        color: #ffffffa9;
+    }
+    >ul{
+        display: flex;
+        gap: 10px;
+        list-style: none;
+    }
+}
