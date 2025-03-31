@@ -24,7 +24,7 @@ const Programs = () => {
             />
         ))}
       </div>
-      <Link href={"/program-details"}>View all programs</Link>
+      <Link href={"/programs"}>View all programs</Link>
     </section>
   );
 };

@@ -1,0 +1,14 @@
+.program-details{
+    width: 30%;
+    height: 45vh;
+    background: #ffffffa9;
+    padding: 15px;
+    border-radius: 10px;
+    @media (max-width:900px) {
+        width: 90%;
+        height: 50vh;
+    }
+    >h2{
+        font-size: 20px;
+    }
+}

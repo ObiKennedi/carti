@@ -184,3 +184,42 @@ export const testimomies = [
     stars: 5,
   },
 ]
+
+export const programDetails = [
+  {
+    id: 1,
+    heading: "Certificate in caregiving",
+    duration: "3 Months",
+    details: "Foundation level certification in essential caregiving skills and basic patient care techniques.",
+    curriculum: [
+      "Introduction to Caregiving",
+      "Basic Patient Care",
+      "Communication Skills",
+      "Safety and Emergency Procedures"
+    ]
+  },
+  {
+    id: 2,
+    heading: "Diploma in Caregiving",
+    duration: "2 Months",
+    details: "Comprehensive training in advanced caregiving practices, including specialized care techniques and healthcare management..",
+    curriculum: [
+      "Advanced Patient Care",
+      "Medical Terminology",
+      "Healthcare Ethics",
+      "Specialized Care Techniques"
+    ]
+  },
+  {
+    id: 3,
+    heading: "Higher Diploma in Caregiving",
+    duration: "1 Month and 2 weeks",
+    details: "Advanced program focusing on leadership in caregiving, complex care management, and healthcare administration.",
+    curriculum: [
+      "Leadership in Healthcare",
+      "Complex Care Management",
+      "Healthcare Administration",
+      "Quality Assurance in Care"
+    ]
+  },
+]

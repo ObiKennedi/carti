@@ -24,7 +24,7 @@ const Hero = () => {
           accredited programs and become a certified caregiver today.
         </div>
         <div>
-          <Link href="">
+          <Link href="/programs">
             <button aria-label="Explore our programs">Explore our programs</button>
           </Link>
           <button onClick={() => setShowVideo(!showVideo)} aria-label="Watch video">
