@@ -1,0 +1,49 @@
+#about {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #0000ff73;
+  > section:first-child {
+    margin: 15vh 0 0 0;
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+    position: relative;
+    > img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: -1;
+    }
+    > div {
+      width: 50%;
+      margin: auto;
+      padding: 20px;
+      height: 60vh;
+      text-align: center;
+      color: #ffffff;
+      @media (max-width: 900px) {
+        width: 90%;
+        height: 100%;
+      }
+      > h1 {
+        font-size: 3pc;
+      }
+    }
+  }
+  > section:last-child {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    > div {
+      display: flex;
+      padding: 30px 10px;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      gap: 10px;
+    }
+  }
+}

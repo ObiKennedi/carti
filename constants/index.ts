@@ -3,7 +3,7 @@ export const NavLinks = [
     id: 1,
     name: "Programs",
     img: "/icons/programs.png",
-    href: "#programs",
+    href: "/programs",
   },
   {
     id: 2,
@@ -103,7 +103,7 @@ export const ourValues = [
     {
       id: 2,
       heading: "Excellence in Education",
-      icon: "/icons/education.png",
+      icon: "/icons/excellence-education.png",
       writeUp: "Our comprehensive programs are designed to deliver the highest standards of caregiving education."
     },
     {

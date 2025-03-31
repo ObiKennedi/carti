@@ -1,0 +1,13 @@
+.core-values{
+    width: 20%;
+    height: 40vh;
+    padding: 10px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 2px 12px 5px #0000ff63;
+    @media (max-width:900px) {
+        width: 87%;
+        height: 35vh;
+    }
+}
