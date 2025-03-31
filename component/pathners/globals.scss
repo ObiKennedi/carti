@@ -1,11 +1,14 @@
 .partners {
     text-align: center;
     width: 98%;
-    height: fit-content;
+    height: 30vh;
     background: #000000c7;
     color: #ffffff;
     border-radius: 10px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     > h2 {
         padding: 10px 0 0 0;
